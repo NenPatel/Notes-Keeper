@@ -1,0 +1,81 @@
+
+.Box{
+    /* float: left; */
+    /* display: flex; */
+
+    font-size: 20px;
+    width: 300px;
+    height: 250px;
+    /* height: auto; */
+    background-color: rgba(72, 224, 204, 0.883);
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    /* padding-top: 0%; */
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    box-shadow: 2px 2px 2px 2px rgb(146, 140, 140);
+    border: 2px solid black;
+    
+    
+}
+p{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.delete{
+    font-size: 15px;
+    
+}
+.top{
+    border-radius: 5px solid black;
+    /* width: 350px; */
+    float : left;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width:825px) {
+    .top{
+        /* display: flex;
+        justify-content: center; */
+        /* position: relative; */
+        /* margin: 0; */
+        /* text-align: center; */
+    }
+    .Box{
+        width: 310px;
+    height: 250px;
+        margin-top: 15px;
+        margin-left: 50px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+   .delete{
+       /* position: relative;
+       top: 20px; */
+       font-size: 20px;
+   }
+} 
+
+ @media screen and (max-width:650px) {
+    .top{
+        display: flex;
+        justify-content: center;
+        /* position: relative; */
+        /* margin: 0; */
+        /* text-align: center; */
+    }
+    .Box{
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+   .delete{
+       position: relative;
+       top: 20px;
+       left: -10px;
+   }
+} 
+
